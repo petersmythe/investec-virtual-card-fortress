@@ -1,0 +1,11 @@
+
+### Investec Card IDE `env.json` limitations
+
+* The `env.json` file can not store JSON objects or arrays and is best suited to store individually named key-value string pairs.
+
+* A workaround is to store a full JSON object at the top of `main.js`, perhaps separated from the rest of the code with a warning
+
+`// DO NOT CHANGE THE CODE BELOW IF YOU DON'T KNOW WHAT YOU'RE DOING`
+
+Refer to the discussion on 2024-06-27 in #05_pb-api-support-feedback https://investec-dev-com.slack.com/archives/C05MQQDUJ3E
+
