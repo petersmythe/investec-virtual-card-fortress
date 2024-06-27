@@ -70,22 +70,22 @@ Sample `env.json` configuration file with two transactions:
 {
     "allowedTransactions": [{
             "merchantName": "DStv",
-			"merchantCode": 1234,
+            "merchantCode": 1234,
             "transactionAmountCents": 92900,
             "currencyCode": "zar",
             "dayOfMonth": 1
         }, {
             "merchantName": "Netflix",
-			"merchantCode": 2345,
+            "merchantCode": 2345,
             "transactionAmountCents": 699,
             "currencyCode": "usd",
             "dayOfMonth": -1
         }
     ],
-	"daysBefore": 0,
-	"daysAfter": 4,
-	"percentageLess": -10,
-	"percentageMore": 20
+    "daysBefore": 0,
+    "daysAfter": 4,
+    "percentageLess": -10,
+    "percentageMore": 20
 }
 ```
 
